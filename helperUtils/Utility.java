@@ -1,23 +1,17 @@
-public class BubbleSort {
+package helperUtils;
 
-  public static void main(String args[]) {
-    int[] inputArr = { 10, -80, 5, 76, 92, 100, 52, 1, -10 };
-    printArray(inputArr, true);
-    for (int sortedBoundary = inputArr.length - 1; sortedBoundary > 0; sortedBoundary--) {
-      for (int i = 0; i < sortedBoundary; i++) {
-        if (inputArr[i] > inputArr[i + 1]) {
-          swap(inputArr, i, i + 1);
-        }
-      }
-    }
-    printArray(inputArr, false);
+public final class Utility {
+
+  // suppressing default constructor to prohibit instantiation of this class
+  private Utility() {
+    throw new AssertionError();
   }
 
-  public static void printArray(int[] arr, boolean isInput) {
+  public static void printArray(int[] arr, boolean isInput, String algoName) {
     String title = isInput ? "Input Array : " : "Sorted Output : ";
     if (isInput) {
       System.out.println();
-      System.out.println("Bubble Sort :");
+      System.out.println(algoName + " :");
       System.out.println("-------------");
     }
     System.out.println(title);
@@ -39,5 +33,4 @@ public class BubbleSort {
     arr[i] = arr[j];
     arr[j] = temp;
   }
-
 }
