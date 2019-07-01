@@ -22,6 +22,20 @@ the last unsorted index of the array, instead of iterating through the entire ar
 
 O(n^2)
 
-#### Implemented Sort Type:
+#### Sort Type:
 
 Stable Sort
+
+### 2. Selection Sort:
+
+#### optimization done to the original algorithm:
+
+Same logical optimization as done in bubble sort code.
+
+#### Worst case time complexity:
+
+O(n^2)
+
+#### Sort Type:
+
+Unstable Sort
