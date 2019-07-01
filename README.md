@@ -9,6 +9,24 @@ from scratch using Java.
 This repo might be helpful for anyone who needs a quick refresher on popular sorting algorithms and their implementation during their
 preparation for a technical interview or an examination.
 
+## Steps To Compile & Run:
+
+1. From the project's root directory, compile the Utility.java file.
+
+          javac helperUtils/Utility.java
+
+2. Then compile the required sort algorithm java code from the root of the project.
+
+    For example to compile the bubble sort code:
+    
+          javac sortAlgorithms/BubbleSort.java
+
+3. Run the compiled code using the `java` command.
+
+   For example, to run the bubble sort code compiled from the above step:
+   
+          java BubbleSort
+
 ## Contents:
 
 ### 1. Bubble Sort:
