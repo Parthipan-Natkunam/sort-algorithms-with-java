@@ -25,7 +25,7 @@ preparation for a technical interview or an examination.
 
    For example, to run the bubble sort code compiled from the above step:
    
-          java BubbleSort
+          java sortAlgorithms/BubbleSort
 
 ## Contents:
 
@@ -59,5 +59,17 @@ O(n^2)
 #### Sort Type:
 
 Unstable Sort
+
+--------------------------------------------------------------------------------------------
+
+### 3. Insertion Sort:
+
+#### Worst case time complexity:
+
+O(n^2)
+
+#### Sort Type:
+
+Stable Sort
 
 --------------------------------------------------------------------------------------------
