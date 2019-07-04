@@ -73,3 +73,15 @@ O(n^2)
 Stable Sort
 
 --------------------------------------------------------------------------------------------
+
+### 4. Shell Sort:
+
+#### Worst case time complexity:
+
+O(n^2) - Depends on how the Shell interval is selected.
+
+#### Sort Type:
+
+Unstable Sort
+
+--------------------------------------------------------------------------------------------
