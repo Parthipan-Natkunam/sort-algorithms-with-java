@@ -31,11 +31,6 @@ preparation for a technical interview or an examination.
 
 ### 1. Bubble Sort:
 
-#### optimization done to the original algorithm:
-
-The code maintains the last unsorted index which is updated on every outer loop iteration and the inner loop loops through till
-the last unsorted index of the array, instead of iterating through the entire array during each loop of the bubbling process.
-
 #### Worst case time complexity:
 
 O(n^2)
@@ -83,5 +78,17 @@ O(n^2) - Depends on how the Shell interval is selected.
 #### Sort Type:
 
 Unstable Sort
+
+--------------------------------------------------------------------------------------------
+
+### 5. Merge Sort:
+
+#### Worst case time complexity:
+
+O(n logn)
+
+#### Sort Type:
+
+Stable Sort
 
 --------------------------------------------------------------------------------------------
