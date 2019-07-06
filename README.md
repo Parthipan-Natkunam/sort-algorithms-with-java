@@ -43,10 +43,6 @@ Stable Sort
 
 ### 2. Selection Sort:
 
-#### optimization done to the original algorithm:
-
-Similar logical optimization as done in bubble sort code.
-
 #### Worst case time complexity:
 
 O(n^2)
